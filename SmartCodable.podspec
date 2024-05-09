@@ -12,7 +12,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartCodable'
-  s.version          = '2.2.3'
+  s.version          = '3.4.0'
   s.summary          = '数据解析库'
   
   s.homepage         = 'https://github.com/intsig171'
@@ -20,15 +20,13 @@ Pod::Spec.new do |s|
   s.author           = { 'Mccc' => 'mancong@bertadata.com' }
   s.source           = { :git => 'https://github.com/intsig171/SmartCodable.git', :tag => s.version.to_s }
   
-  s.platform              = :ios, '11.0'
   s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.13'
+  
   s.swift_version         = '5.0'
   
   
-  
   s.source_files = 'SmartCodable/Classes/**/*'
-  
-  
 
 end
 
